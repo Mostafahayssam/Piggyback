@@ -24,5 +24,7 @@ public class ThrowEntity
 			vector.setX(vector.getX() + 1.5D);
 		}
 		ent.setVelocity(vector);
+		player.setVelocity(vector);
+			
 	}
 }
